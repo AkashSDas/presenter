@@ -12,6 +12,8 @@ interface Props {
 }
 
 const Content: React.FC<Props> = ({ htmlString, data }: Props) => {
+  console.log(data);
+
   return (
     <div>
       <pre>
